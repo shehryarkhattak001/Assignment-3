@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 3 - Shehryar Khan</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1 id="mainHeading">Welcome to My Web Page</h1>
+
+    <!-- Button -->
+    <button onclick="changeHeading()">Change Heading</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Function to change heading text dynamically
+        function changeHeading() {
+            document.getElementById("mainHeading").innerText = 
+                "Heading Changed Successfully!";
+        }
+    </script>
+
+</body>
+</html>
